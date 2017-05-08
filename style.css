@@ -1,0 +1,47 @@
+.navBar {
+    background-color: #ee6e73;
+    height: 75px;
+}
+
+body {
+    margin: 0;
+}
+
+.lButton{
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    background-color: #ee6e73;
+    font-size: 20px;
+    font-family: "Courier New", "Times New Roman", serif;
+}
+
+.lButton:hover{
+    color: #000000;
+}
+
+.rButton{
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    background-color: #ee6e73;
+    font-size: 20px;
+    font-family: "Courier New", "Times New Roman", serif;
+}
+
+.rButton:hover{
+    color: #000000;
+}
+
+.header {
+    text-align: center;
+    text-underline: auto;
+    font-size: 30px;
+    font-family: "Courier New", "Times New Roman", serif;
+}
