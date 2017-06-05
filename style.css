@@ -2,13 +2,6 @@ body {
     margin: 0;
 }
 
-.video {
-    margin-right: 0.9375em;
-    margin-left: 1.25em;
-    margin-top: 0.625em;
-    float: right;
-}
-
 .welcome {
     padding-top: 1em;
     margin-top: 0.625em;
@@ -53,6 +46,10 @@ body {
     video {
         height: 28.125em;
         width: 45.625em;
+        margin-right: 0.9375em;
+        margin-left: 1.25em;
+        margin-top: 0.625em;
+        float: right;
     }
 
     .navBar {
@@ -100,6 +97,10 @@ body {
     video {
         height: 15em;
         width: 20em;
+        margin-right: 0.9375em;
+        margin-left: 1.25em;
+        margin-top: 0.625em;
+        float: right;
     }
 
     .navBar {
