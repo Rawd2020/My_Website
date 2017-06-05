@@ -1,42 +1,9 @@
 .navBar {
     background-color: #ee6e73;
-    height: 4.6875em;
-}
+    height: 4.6875em;  }
 
 body {
     margin: 0;
-}
-
-.lButton {
-    margin-top: 1.25em;
-    margin-left: 0.9375em;
-    float: left;
-    color: #FFFFFF;
-    text-align: center;
-    border: none;
-    background-color: #ee6e73;
-    font-size: 180%;
-    font-family: "Courier New", "Times New Roman", serif;
-}
-
-.lButton:hover {
-    color: #000000;
-}
-
-.rButton {
-    margin-top: 1.25em;
-    margin-right: 0.9375em;
-    float: right;
-    color: #FFFFFF;
-    text-align: center;
-    border: none;
-    background-color: #ee6e73;
-    font-size: 180%;
-    font-family: "Courier New", "Times New Roman", serif;
-}
-
-.rButton:hover {
-    color: #000000;
 }
 
 .header {
@@ -76,4 +43,72 @@ body {
 video {
     height: 28.125em;
     width: auto;
+}
+
+@media all and (min-width: 768px) and (min-height: 450px){
+    .lButton {
+        margin-top: 1.25em;
+        margin-left: 0.9375em;
+        float: left;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        background-color: #ee6e73;
+        font-size: 1.5625em;
+        font-family: "Courier New", "Times New Roman", serif;
+    }
+
+    .lButton:hover {
+        color: #000000;
+    }
+
+    .rButton {
+        margin-top: 1.25em;
+        margin-right: 0.9375em;
+        float: right;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        background-color: #ee6e73;
+        font-size: 1.5625em;
+        font-family: "Courier New", "Times New Roman", serif;
+    }
+
+    .rButton:hover {
+        color: #000000;
+    }
+}
+
+@media all and (max-width: 768px) and (max-height: 450px){
+    .lButton {
+        margin-top: 1.25em;
+        margin-left: 0.9375em;
+        float: left;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        background-color: #ee6e73;
+        font-size: 1em;
+        font-family: "Courier New", "Times New Roman", serif;
+    }
+
+    .lButton:hover {
+        color: #000000;
+    }
+
+    .rButton {
+        margin-top: 1.25em;
+        margin-right: 0.9375em;
+        float: right;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        background-color: #ee6e73;
+        font-size: 1em;
+        font-family: "Courier New", "Times New Roman", serif;
+    }
+
+    .rButton:hover {
+        color: #000000;
+    }
 }
