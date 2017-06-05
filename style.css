@@ -43,6 +43,10 @@ body {
 
 /*This block determines the general style of the page for screens of size 768x450 and up.*/
 @media all and (min-width: 768px) and (min-height: 450px){
+    h2{
+        font-size: 1.5em;
+        margin: .75em 0;
+    }
     video {
         height: 28.125em;
         width: 45.625em;
@@ -93,6 +97,10 @@ body {
 
 /*This block determines the general style of the page for screens less than the size 768x450.*/
 @media not all and (min-width: 768px) and (min-height: 450px){
+    h2{
+        font-size: 1em;
+        margin: .75em 0;
+    }
 
     video {
         height: 15em;
