@@ -52,7 +52,7 @@ body {
 @media all and (min-width: 768px) and (min-height: 450px){
     video {
         height: 28.125em;
-        width: auto;
+        width: 45.625em;
     }
 
     .navBar {
