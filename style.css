@@ -6,12 +6,6 @@ body {
     margin: 0;
 }
 
-.header {
-    text-align: center;
-    font-size: 1.875em;
-    font-family: "Times New Roman", serif;
-}
-
 .video {
     margin-right: 0.9375em;
     margin-left: 1.25em;
@@ -43,6 +37,24 @@ body {
 video {
     height: 28.125em;
     width: auto;
+}
+
+/*This block is for the header size on screens of width 536px and up.*/
+@media all and (min-width: 536px){
+    .header {
+        text-align: center;
+        font-size: 1.875em;
+        font-family: "Times New Roman", serif;
+    }
+}
+
+/*This block is for the header size on screens of width below 536px.*/
+@media not all and (min-width: 536px){
+    .header {
+        text-align: center;
+        font-size: 1em;
+        font-family: "Times New Roman", serif;
+    }
 }
 
 /*This block determines the style of the navigation buttons for screens of size 768x450 and up.*/
