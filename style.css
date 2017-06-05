@@ -30,11 +30,6 @@ body {
     text-align: justify;
 }
 
-video {
-    height: 28.125em;
-    width: auto;
-}
-
 /*This block is for the header size on screens of width 536px and up.*/
 @media all and (min-width: 536px){
     .header {
@@ -53,8 +48,13 @@ video {
     }
 }
 
-/*This block determines the style of the navigation buttons for screens of size 768x450 and up.*/
+/*This block determines the general style of the page for screens of size 768x450 and up.*/
 @media all and (min-width: 768px) and (min-height: 450px){
+    video {
+        height: 28.125em;
+        width: auto;
+    }
+
     .navBar {
         background-color: #ee6e73;
         height: 4.6875em;
@@ -94,8 +94,14 @@ video {
     }
 }
 
-/*This block determines the style of the navigation buttons for screens less than the size 768x450.*/
+/*This block determines the general style of the page for screens less than the size 768x450.*/
 @media not all and (min-width: 768px) and (min-height: 450px){
+
+    video {
+        height: 28.125em;
+        width: 28.125em;
+    }
+
     .navBar {
         background-color: #ee6e73;
         height: 3em;
