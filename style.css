@@ -98,7 +98,7 @@ video {
 @media not all and (min-width: 768px) and (min-height: 450px){
     .navBar {
         background-color: #ee6e73;
-        height: 3.5em;
+        height: 3em;
     }
 
     .lButton {
@@ -109,7 +109,7 @@ video {
         text-align: center;
         border: none;
         background-color: #ee6e73;
-        font-size: 0.7em;
+        font-size: 0.76em;
         font-family: "Times New Roman", serif;
     }
 
@@ -125,7 +125,7 @@ video {
         text-align: center;
         border: none;
         background-color: #ee6e73;
-        font-size: 0.7em;
+        font-size: 0.76em;
         font-family: "Times New Roman", serif;
         -webkit-appearance: none;
     }
