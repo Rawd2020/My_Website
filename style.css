@@ -79,7 +79,7 @@ video {
     }
 }
 
-@media all and (max-width: 768px) and (max-height: 450px){
+@media not all and (min-width: 768px) and (min-height: 450px){
     .lButton {
         margin-top: 1.25em;
         margin-left: 0.9375em;
