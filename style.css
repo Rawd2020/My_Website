@@ -103,7 +103,7 @@ video {
         text-align: center;
         border: none;
         background-color: #ee6e73;
-        font-size: 1em;
+        font-size: 0.9em;
         font-family: "Times New Roman", serif;
     }
 
@@ -119,7 +119,7 @@ video {
         text-align: center;
         border: none;
         background-color: #ee6e73;
-        font-size: 1em;
+        font-size: 0.9em;
         font-family: "Times New Roman", serif;
         -webkit-appearance: none;
     }
