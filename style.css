@@ -9,7 +9,7 @@ body {
 .header {
     text-align: center;
     font-size: 1.875em;
-    font-family: "Courier New", "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
 }
 
 .video {
@@ -25,7 +25,7 @@ body {
     margin-left: 0.9375em;
     margin-right: 0.9375em;
     font-size: 1.5em;
-    font-family: "Courier New", "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     font-weight: 500;
     text-align: justify;
 }
@@ -35,7 +35,7 @@ body {
     margin-left: 0.9375em;
     margin-right: 0.9375em;
     font-size: 1.5em;
-    font-family: "Courier New", "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     font-weight: 500;
     text-align: justify;
 }
@@ -45,6 +45,7 @@ video {
     width: auto;
 }
 
+/*This block determines the style of the navigation buttons for screens of size 768x450 and up.*/
 @media all and (min-width: 768px) and (min-height: 450px){
     .lButton {
         margin-top: 1.25em;
@@ -55,7 +56,7 @@ video {
         border: none;
         background-color: #ee6e73;
         font-size: 1.5625em;
-        font-family: "Courier New", "Times New Roman", serif;
+        font-family: "Times New Roman", serif;
     }
 
     .lButton:hover {
@@ -71,7 +72,7 @@ video {
         border: none;
         background-color: #ee6e73;
         font-size: 1.5625em;
-        font-family: "Courier New", "Times New Roman", serif;
+        font-family: "Times New Roman", serif;
     }
 
     .rButton:hover {
@@ -79,6 +80,7 @@ video {
     }
 }
 
+/*This block determines the style of the navigation buttons for screens less than the size 768x450.*/
 @media not all and (min-width: 768px) and (min-height: 450px){
     .lButton {
         margin-top: 1.25em;
@@ -89,7 +91,7 @@ video {
         border: none;
         background-color: #ee6e73;
         font-size: 1em;
-        font-family: "Courier New", "Times New Roman", serif;
+        font-family: "Times New Roman", serif;
     }
 
     .lButton:hover {
@@ -105,7 +107,7 @@ video {
         border: none;
         background-color: #ee6e73;
         font-size: 1em;
-        font-family: "Courier New", "Times New Roman", serif;
+        font-family: "Times New Roman", serif;
     }
 
     .rButton:hover {
