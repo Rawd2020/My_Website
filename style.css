@@ -98,47 +98,6 @@ video {
 @media not all and (min-width: 768px) and (min-height: 450px){
     .navBar {
         background-color: #ee6e73;
-        height: 4em;
-    }
-
-    .lButton {
-        margin-top: 1.25em;
-        margin-left: 0.9375em;
-        float: left;
-        color: #FFFFFF;
-        text-align: center;
-        border: none;
-        background-color: #ee6e73;
-        font-size: 1em;
-        font-family: "Times New Roman", serif;
-    }
-
-    .lButton:hover {
-        color: #000000;
-    }
-
-    .rButton {
-        margin-top: 1.25em;
-        margin-right: 0.9375em;
-        float: right;
-        color: #FFFFFF;
-        text-align: center;
-        border: none;
-        background-color: #ee6e73;
-        font-size: 1em;
-        font-family: "Times New Roman", serif;
-        -webkit-appearance: none;
-    }
-
-    .rButton:hover {
-        color: #000000;
-    }
-}
-
-/*This block determines the style of the navigation buttons for screens with a width less than 309px*/
-@media not all and (min-width: 309px){
-    .navBar {
-        background-color: #ee6e73;
         height: 3.5em;
     }
 
