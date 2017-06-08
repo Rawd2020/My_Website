@@ -28,12 +28,13 @@ if ($field_recaptcha) {
             window.location = 'contact.html';
         </script>
     <?php
-    }}
-     else { ?>
-        <script language="javascript" type="text/javascript">
-            alert('Message failed. Please, send an email to rorywilliamsdoyle@outlook.com');
-            window.location = 'contact.html';
-        </script>
-    <?php
-     }
-    ?>
+    }
+}
+else { ?>
+    <script language="javascript" type="text/javascript">
+        alert('Message failed. Please, send an email to rorywilliamsdoyle@outlook.com');
+        window.location = 'contact.html';
+    </script>
+<?php
+ }
+?>
