@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="favicon.jpg">
+    <link rel="icon" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="description" content="A CV website for the CPSSD student Rory Williams Doyle.">
     <meta name="keywords" content="programmer,programming,employ,hire,cv,student,intern,internship,employee,technology">
     <meta name="author" content="Rory Williams Doyle">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>Rory Williams Doyle</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 <body>
     <div class="navBar">
@@ -23,22 +25,26 @@
             <input class="rButton" type="submit" value="Home"/>
         </form>
     </div>
-    <div class="bio">
+    <div class="contact">
+        <h2><u>Get in touch!</u></h2>
         <form action="contact.php" method="post">
             Your name<br>
             <input type="text" name="cf_name"><br>
             Your e-mail<br>
             <input type="text" name="cf_email"><br>
-            Message<br>
+            Your Message<br>
             <textarea name="cf_message"></textarea><br>
+            <div class="g-recaptcha" data-sitekey="6Ld5kSQUAAAAAFixN941QmiSsApn5laDGOsaHxm_"></div>
             <input type="submit" value="Send">
             <input type="reset" value="Clear">
         </form>
-        <h1><u>My GitHub profile</u></h1>
+    </div>
+    <div class="social">
+        <h2><u>Further reading</u></h2>
+        <h3><u>My GitHub profile</u></h3>
         <a href="https://github.com/Rawd2020">https://github.com/Rawd2020</a>
-        <h1><u>My LinkedIn profile</u></h1>
-        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="rory-williams-doyle-808532138"><a class="LI-simple-link" href='https://ie.linkedin.com/in/rory-williams-doyle-808532138?trk=profile-badge'>Rory Williams Doyle</a></div>
+        <h3><u>My LinkedIn profile</u></h3>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="rory-williams-doyle-808532138"><a class="LI-simple-link" href='https://ie.linkedin.com/in/rory-williams-doyle-808532138?trk=profile-badge'>Rory Williams Doyle</a></div>
     </div>
 </body>
 </html>
