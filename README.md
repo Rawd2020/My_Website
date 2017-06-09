@@ -33,3 +33,12 @@ V1 (04/06/2017):
   - Blurb added to homepage.
   - Links to GitHub and LinkedIn added to contact section.
   - Basic non-dynamic styling added to site.
+  
+V1.1 (09/06/2017):
+  - All px measurments in the style sheet were converted to em.
+  - The contact form was re-styled, moving all social media links to a div on the right and keeping the contact form on the left.
+  - Google's Re-CAPTCHA was selected and implemented to protect the contact form from being spammed.
+  - A README was created for the project.
+  - A new favicon was designed for the website and has been added. This is now in the form of a PNG file instead of a JPEG.
+  - The website scaling for mobile devices was fixed. The site is now usable on mobile but further testing of resolutions may be required.
+  - The universal 'Times New Roman' font was choosen as a temporary font for the site.
