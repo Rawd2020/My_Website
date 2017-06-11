@@ -1,3 +1,14 @@
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    float: right;
+    margin-right: 1em;
+}
+
+a:hover {
+    color: #000000;
+}
+
 body {
     margin: 0;
 }
@@ -89,42 +100,15 @@ h1 {
     }
 
     .navBar {
-        background-color: #ee6e73;
-        height: 4.6875em;
-    }
-
-    .lButton {
-        margin-top: 1.25em;
-        margin-left: 0.9375em;
-        float: left;
         color: #FFFFFF;
-        text-align: center;
-        border: none;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 2em;
+        padding-top: 1em;
         background-color: #ee6e73;
-        font-size: 1.5625em;
-        font-family: "Times New Roman", serif;
+        height: 1.7em;
     }
 
-    .lButton:hover {
-        color: #000000;
-    }
-
-    .rButton {
-        margin-top: 1.25em;
-        margin-right: 0.9375em;
-        float: right;
-        color: #FFFFFF;
-        text-align: center;
-        border: none;
-        background-color: #ee6e73;
-        font-size: 1.5625em;
-        font-family: "Times New Roman", serif;
-        -webkit-appearance: none;
-    }
-
-    .rButton:hover {
-        color: #000000;
-    }
 }
 
 /*This block determines the general style of the page for screens less than the size 768x450.*/
@@ -153,36 +137,4 @@ h1 {
         height: 3em;
     }
 
-    .lButton {
-        margin-top: 1.25em;
-        margin-left: 0.9375em;
-        float: left;
-        color: #FFFFFF;
-        text-align: center;
-        border: none;
-        background-color: #ee6e73;
-        font-size: 0.76em;
-        font-family: "Times New Roman", serif;
-    }
-
-    .lButton:hover {
-        color: #000000;
-    }
-
-    .rButton {
-        margin-top: 1.25em;
-        margin-right: 0.9375em;
-        float: right;
-        color: #FFFFFF;
-        text-align: center;
-        border: none;
-        background-color: #ee6e73;
-        font-size: 0.76em;
-        font-family: "Times New Roman", serif;
-        -webkit-appearance: none;
-    }
-
-    .rButton:hover {
-        color: #000000;
-    }
 }
