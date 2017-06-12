@@ -57,14 +57,14 @@ h1 {
 }
 
 .navBar a {
-    color: #FFFFFF !important;
-    text-decoration: none !important;
-    float: right !important;
-    margin-right: 1em !important;
+    color: #FFFFFF;
+    text-decoration: none;
+    float: right;
+    margin-right: 1em;
 }
 
 .navBar a:hover {
-    color: #000000 !important;
+    color: #000000;
 }
 
 /*This block is for the header size on screens of width 536px and up.*/
