@@ -4,17 +4,6 @@
     text-align: center;
 }
 
-.navBar a {
-    color: #FFFFFF;
-    text-decoration: none;
-    float: right;
-    margin-right: 1em;
-}
-
-.navBar a:hover {
-    color: #000000;
-}
-
 body {
     margin: 0;
 }
@@ -115,6 +104,17 @@ h1 {
         height: 1.7em;
     }
 
+    .navBar a {
+        color: #FFFFFF;
+        text-decoration: none;
+        float: right;
+        margin-right: 1em;
+    }
+
+    .navBar a:hover {
+        color: #000000;
+    }
+
 }
 
 /*This block determines the general style of the page for screens less than the size 768x450.*/
@@ -141,6 +141,17 @@ h1 {
     .navBar {
         background-color: #ee6e73;
         height: 3em;
+    }
+
+    .navBar a {
+        color: #FFFFFF;
+        text-decoration: none;
+        float: right;
+        margin-right: 1em;
+    }
+
+    .navBar a:hover {
+        color: #000000;
     }
 
 }
