@@ -1,16 +1,17 @@
 .error {
     margin-top: 5em;
     font-size:2em;
+    text-align: center;
 }
 
-a {
+.navBar a {
     color: #FFFFFF;
     text-decoration: none;
     float: right;
     margin-right: 1em;
 }
 
-a:hover {
+.navBar a:hover {
     color: #000000;
 }
 
