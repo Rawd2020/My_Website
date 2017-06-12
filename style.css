@@ -56,6 +56,17 @@ h1 {
     text-align: justify;
 }
 
+.navBar a {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    float: right !important;
+    margin-right: 1em !important;
+}
+
+.navBar a:hover {
+    color: #000000 !important;
+}
+
 /*This block is for the header size on screens of width 536px and up.*/
 @media all and (min-width: 536px){
     .header {
@@ -104,17 +115,6 @@ h1 {
         height: 1.7em;
     }
 
-    .navBar a {
-        color: #FFFFFF;
-        text-decoration: none;
-        float: right;
-        margin-right: 1em;
-    }
-
-    .navBar a:hover {
-        color: #000000;
-    }
-
 }
 
 /*This block determines the general style of the page for screens less than the size 768x450.*/
@@ -141,17 +141,6 @@ h1 {
     .navBar {
         background-color: #ee6e73;
         height: 3em;
-    }
-
-    .navBar a {
-        color: #FFFFFF;
-        text-decoration: none;
-        float: right;
-        margin-right: 1em;
-    }
-
-    .navBar a:hover {
-        color: #000000;
     }
 
 }
