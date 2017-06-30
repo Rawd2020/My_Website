@@ -4,9 +4,9 @@ Created on: 08/05/2017
 
 Created by: Rory Williams Doyle
 
-Last updated: 05/06/2017
+Last updated: 30/06/2017
 
-Version: 1.1
+Version: 2
 
 # Overview
 This is a basic CV and personal website, created for the purpose of attracting potential employment.
@@ -42,3 +42,11 @@ V1.1 (09/06/2017):
   - A new favicon was designed for the website and has been added. This is now in the form of a PNG file instead of a JPEG.
   - The website scaling for mobile devices was fixed. The site is now usable on mobile but further testing of resolutions may be required.
   - The universal 'Times New Roman' font was choosen as a temporary font for the site.
+
+V2 (30/06/2017):
+  - Changed font to the Google Raleway font.
+  - Removed NavBar.
+  - Deleted intro video file from repo.
+  - Removed legacy PHP libraries.
+  - Changed page design to a one page design.
+  - Added links to social media in the new footer.
