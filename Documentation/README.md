@@ -50,3 +50,11 @@ V2 (30/06/2017):
   - Removed legacy PHP libraries.
   - Changed page design to a one page design.
   - Added links to social media in the new footer.
+  
+V2.1 (20/07/2017):
+  - Added new social media link logos. Used fontawesome's icon font for this.
+  - Resized headshot.
+  - Fixed the blue underscore issue in the social footer.
+  - Added a mailto link in the footer.
+  - Removed legacy CSS.
+  - Added commenting to all files related to the site.
