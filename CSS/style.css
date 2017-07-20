@@ -1,9 +1,7 @@
+/*This imports the Raleway font from Google which I use as the primary font for the site.*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-.footer a {
-    outline: 0;
-}
-
+/*The styling for the social media and contact footer.*/
 .footer {
     margin-top: 6em;
     float: bottom;
@@ -17,6 +15,9 @@
     height: 3em;
 }
 
+/*The styling for the experience section is handled in these 3 blocks. There is however the potential to merge this with
+the bio CSS block.
+ */
 .experience {
     margin-top: 2em;
     margin-left: 5em;
@@ -34,6 +35,8 @@
     text-align: center;
 }
 
+/*The custom styling for the welcome section is handled in these two blocks as well as the image styling for my picture.
+ */
 .welcome img {
     display: block;
     margin: 0 auto;
@@ -42,6 +45,16 @@
     border-radius: 50%;
 }
 
+.welcome {
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1.5em;
+    font-family: "Raleway", "Times New Roman", serif;
+    text-align: justify;
+}
+
+/*The page header styling is controlled here. This is simply the big "Rory Williams Doyle" bit on the homepage*/
 .header {
     color: #FFFFFF;
     text-align: center;
@@ -52,8 +65,10 @@
     height: 1.7em;
 }
 
-.welcome {
-    margin-top: 2em;
+/*The following 3 blocks handle the styling for the PHP contact form.*/
+
+.contact {
+    margin-top: 5em;
     margin-left: 5em;
     margin-right: 5em;
     font-size: 1.5em;
@@ -69,25 +84,25 @@
     text-align: center;
 }
 
-.contact {
-    margin-top: 5em;
-    margin-left: 5em;
-    margin-right: 5em;
-    font-size: 1.5em;
-    font-family: "Raleway", "Times New Roman", serif;
-    text-align: justify;
+/*This block specifically handles the sizing of the message box in the PHP contact form.*/
+textarea{
+    width: 100%;
+    height: 200px;
 }
 
+/*This block handles the custom error style for error messages.*/
 .error {
     margin-top: 5em;
     text-align: center;
     font-size:2em;
 }
 
+/*Sets the margin of the whole page body to 0.*/
 body {
     margin: 0;
 }
 
+/*These 3 blocks handle the styling of the "About Me" section on the page.*/
 .bio {
     margin-top: 2em;
     margin-left: 5em;
@@ -104,21 +119,4 @@ body {
 
 .bio h1 {
     text-align: center;
-}
-
-.social {
-    float: right;
-    display: inline-block;
-    margin-top: 0.625em;
-    margin-left: 0.9375em;
-    margin-right: 0.9375em;
-    font-size: 1.5em;
-    font-family: "Raleway", "Times New Roman", serif;
-    font-weight: 500;
-    text-align: justify;
-}
-
-textarea{
-    width: 100%;
-    height: 200px;
 }

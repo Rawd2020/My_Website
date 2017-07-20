@@ -4,9 +4,9 @@ Created on: 08/05/2017
 
 Created by: Rory Williams Doyle
 
-Last updated: 30/06/2017
+Last updated: 20/07/2017
 
-Version: 2
+Version: 2.1
 
 # Overview
 This is a basic CV and personal website, created for the purpose of attracting potential employment.

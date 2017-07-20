@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--All of the page meta-data is stored in the head. The Google captcha API, as well as the special icon fonts, are
+ also called upon in the head within the two script tags.-->
 <head>
     <link rel="icon" href="Images/favicon.png">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
@@ -16,6 +18,7 @@
     <div class="header">
         Rory Williams Doyle
     </div>
+    <!--A simple introduction statement.-->
     <div class="welcome">
         <p>
             Hello! My name is Rory Williams Doyle and I am a first year CPSSD student at Dublin City University.
@@ -23,8 +26,10 @@
             after seeing what my skills can bring to your company, you will reach out and give me an opportunity to
             demonstrate my abilities in person.
         </p>
+        <!--The headshot image is called here.-->
         <img src="Images/Headshot_1.jpg"/>
     </div>
+    <!--The "About Me" section serves as a mini bio. It details personal qualities and interests of mine.-->
     <div class="bio">
         <h1><u>About Me</u></h1>
         <h2>Overview</h2>
@@ -54,6 +59,7 @@
 
         </ul>
     </div>
+    <!--The "Experience" section, serves as a mini portfolio of work.-->
     <div class="experience">
         <h1><u>Experience</u></h1>
         <h2>Projects</h2>
@@ -87,6 +93,7 @@
             basics of Python, which is my programming language of choice.
         </p>
     </div>
+    <!--A brief thank you not and the contact form are contained in this section.-->
     <div class="contact">
         <h1><u>Thank You!</u></h1>
         <p>
@@ -94,6 +101,8 @@
             enquires, critiques or just simply wish to get in touch, please use the form below. And if all this content
             just wasn't enough, feel free to browse my social media, links are in the footer below.
         </p>
+        <!--This form uses the contact.php file (Located in the PHP folder) to email me any message submitted via this
+        form, that has obtained a successful reCAPTCHA response.-->
         <h2>Get In Touch</h2>
         <form action="PHP/contact.php" method="post">
             Your name<br>
@@ -107,6 +116,8 @@
             <input type="reset" value="Clear">
         </form>
     </div>
+    <!--The footer contains links to my social media, as well as a mailto link, which was requested during user testing.
+    -->
     <div class="footer">
         <a href="https://www.linkedin.com/in/rory-williams-doyle-808532138"><span class="fa fa-linkedin-square fa-3x"></span></a>
         <a href="https://twitter.com/Rory_W_Doyle"><span class="fa fa-twitter fa-3x"></span></a>
