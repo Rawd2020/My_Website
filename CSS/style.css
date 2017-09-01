@@ -3,7 +3,7 @@
 
 /*The styling for the social media and contact footer.*/
 .footer {
-    margin-top: 6em;
+    margin: 0;
     float: bottom;
     color: #FFFFFF;
     text-align: center;
@@ -13,6 +13,7 @@
     padding-bottom: 0.5em;
     background-color: #ee6e73;
     height: 3em;
+    width: 100%;
 }
 
 /*The styling for the experience section is handled in these 3 blocks. There is however the potential to merge this with
@@ -30,7 +31,6 @@ the bio CSS block.
 .experience h1 {
     text-align: center;
 }
-
 .experience h2 {
     text-align: center;
 }
@@ -43,6 +43,14 @@ the bio CSS block.
     width: 15em;
     height: 12em;
     border-radius: 50%;
+}
+
+/*Shrinks image for screens with a width less than 480px.*/
+@media not all and (min-width: 480px) {
+    .welcome img {
+        width: 7.5em;
+        height: 6em;
+    }
 }
 
 .welcome {
@@ -65,12 +73,17 @@ the bio CSS block.
     height: 1.7em;
 }
 
+/*Header resize for mobile view.*/
+@media not all and (min-width: 480px) {
+    .header {
+        font-size: 1.5em;
+    }
+}
+
 /*The following 3 blocks handle the styling for the PHP contact form.*/
 
 .contact {
-    margin-top: 5em;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin: 5em;
     font-size: 1.5em;
     font-family: "Raleway", "Times New Roman", serif;
     text-align: justify;
@@ -119,4 +132,31 @@ body {
 
 .bio h1 {
     text-align: center;
+}
+
+/*Resize Captcha for mobile.*/
+@media not all and (min-width: 426px) {
+    .g-recaptcha {
+        transform:scale(0.65);
+        transform-origin:0 0;
+    }
+}
+
+/*This section handles section text resizing for mobile.*/
+@media not all and (min-width: 480px) {
+    .experience {
+        font-size: 0.6em;
+    }
+
+    .welcome {
+        font-size: 0.6em;
+    }
+
+    .bio {
+        font-size: 0.6em;
+    }
+
+    .contact {
+        font-size: 0.6em;
+    }
 }
