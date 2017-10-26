@@ -31,14 +31,14 @@ if ($field_recaptcha) {
     if ($mail_status) { ?>
         <script language="javascript" type="text/javascript">
             alert('Thank you for the message. I will contact you as soon as possible.');
-            window.location = 'index.html';
+            window.location = 'https://www.rorywilliamsdoyle.com/index.html';
         </script>
     <?php
     }
     else { ?>
         <script language="javascript" type="text/javascript">
             alert('Message failed. Please try again later.');
-            window.location = 'index.html';
+            window.location = 'https://www.rorywilliamsdoyle.com/index.html';
         </script>
     <?php
     }
@@ -46,7 +46,7 @@ if ($field_recaptcha) {
 else { ?>
     <script language="javascript" type="text/javascript">
         alert('Message failed. Please try again later.');
-        window.location = 'index.html';
+        window.location = 'https://www.rorywilliamsdoyle.com/index.html';
     </script>
 <?php
  }
