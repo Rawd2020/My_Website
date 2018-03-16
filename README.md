@@ -4,9 +4,9 @@ Created on: 08/05/2017
 
 Created by: Rory Williams Doyle
 
-Last updated: 20/07/2017
+Last updated: 16/03/2018
 
-Version: 2.1
+Version: 2.2
 
 # Overview
 This is a basic CV and personal website, created for the purpose of attracting potential employment.
@@ -58,3 +58,8 @@ V2.1 (20/07/2017):
   - Added a mailto link in the footer.
   - Removed legacy CSS.
   - Added commenting to all files related to the site.
+  
+V2.2 (16/03/2018):
+  - Added UniShop to project section.
+  - Updated CoderDojo experience piece in volunteer section.
+  - Carried over hanging changes.
