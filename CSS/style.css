@@ -37,12 +37,15 @@ the bio CSS block.
 
 /*The custom styling for the welcome section is handled in these two blocks as well as the image styling for my picture.
  */
-.welcome img {
+.avatar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url("../Images/Headshot_1.png");
     display: block;
     margin: 0 auto;
     width: 15em;
-    height: 12em;
-    border-radius: 50%;
+    height: 15em;
 }
 
 /*Shrinks image for screens with a width less than 480px.*/
