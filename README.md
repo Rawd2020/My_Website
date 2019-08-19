@@ -4,14 +4,15 @@ Created on: 08/05/2017
 
 Created by: Rory Williams Doyle
 
-Last updated: 16/03/2018
+Last updated: 19/08/2019
 
-Version: 2.2
+Version: 3
 
 # Overview
 This is a basic CV and personal website, created for the purpose of attracting potential employment.
 
 # Supported Browsers
+### Last tested - 16/03/2018
 - Chrome Version 58.0.3029.110 and up
 - Firefox Version 53.0.3 and up
 - Edge Version 40.15063.0.0 and up
@@ -28,20 +29,20 @@ V1 (04/06/2017):
   - Server setup and domain name registered.
   - Listed site on Google and connected it to social networks.
   - Contact section fixed. People can now send me mail from the site.
-  - Video recorded and embeded in site using <video></video> tags.
+  - Video recorded and embedded in site using <video></video> tags.
   - About/Experience sections written out in full.
   - Blurb added to homepage.
   - Links to GitHub and LinkedIn added to contact section.
   - Basic non-dynamic styling added to site.
   
 V1.1 (09/06/2017):
-  - All px measurments in the style sheet were converted to em.
+  - All px measurements in the style sheet were converted to em.
   - The contact form was re-styled, moving all social media links to a div on the right and keeping the contact form on the left.
   - Google's Re-CAPTCHA was selected and implemented to protect the contact form from being spammed.
   - A README was created for the project.
   - A new favicon was designed for the website and has been added. This is now in the form of a PNG file instead of a JPEG.
   - The website scaling for mobile devices was fixed. The site is now usable on mobile but further testing of resolutions may be required.
-  - The universal 'Times New Roman' font was choosen as a temporary font for the site.
+  - The universal 'Times New Roman' font was chosen as a temporary font for the site.
 
 V2 (30/06/2017):
   - Changed font to the Google Raleway font.
@@ -63,3 +64,16 @@ V2.2 (16/03/2018):
   - Added UniShop to project section.
   - Updated CoderDojo experience piece in volunteer section.
   - Carried over hanging changes.
+  
+V3 (19/08/2019):
+  - Overhauled site text.
+  - Ensured use of plain english using Hemingway.
+  - Added "Work Experience" section.
+  - Added "Key Skills" section.
+  - Combined "Hobbies" and "Interests" sections.
+  - Removed less relevant experiences.
+  - Improved site meta data.
+  - Reordered stylesheet to match section ordering.
+  - Removed redundant styling.
+  - Fixed 404 page styling.
+  

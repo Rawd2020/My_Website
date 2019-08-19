@@ -1,6 +1,89 @@
 /*This imports the Raleway font from Google which I use as the primary font for the site.*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+/*Sets the margin of the whole page body to 0.*/
+body {
+    margin: 0;
+}
+
+/*Header resize for mobile view.*/
+@media not all and (min-width: 480px) {
+    .header {
+        font-size: 1.5em;
+    }
+}
+
+/*The page header styling is controlled here. This is simply the big "Rory Williams Doyle" bit on the homepage*/
+.header {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Raleway", "Times New Roman", serif;
+    font-size: 3em;
+    padding-top: 1em;
+    background-color: #ee6e73;
+    height: 1.7em;
+}
+
+/*This section handles section text resizing for mobile.*/
+@media not all and (min-width: 480px) {
+    .general_text {
+        font-size: 0.6em;
+    }
+}
+
+/*Shrinks image for screens with a width less than 480px.*/
+@media not all and (min-width: 480px) {
+    .general_text img {
+        width: 7.5em;
+        height: 6em;
+    }
+}
+
+/*These 3 blocks handle the styling of the "Welcome", "About Me" & "Experience" sections on the page.*/
+.general_text {
+    margin: 2em 5em auto 5em;
+    font-size: 1.5em;
+    font-family: "Raleway", "Times New Roman", serif;
+    text-align: justify;
+}
+
+.general_text h2 {
+    text-align: center;
+}
+
+.general_text h1 {
+    text-align: center;
+}
+
+.avatar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url("../Images/Headshot_1.png");
+    display: block;
+    margin: 0 auto;
+    width: 15em;
+    height: 15em;
+}
+
+/*This block specifically handles the sizing of the message box in the PHP contact form.*/
+textarea{
+    width: 100%;
+    height: 200px;
+}
+
+/*Resize Captcha for mobile.*/
+@media not all and (min-width: 426px) {
+    .g-recaptcha {
+        transform:scale(0.55);
+        transform-origin:0 0;
+    }
+}
+
+.contact {
+    margin: 5em;
+}
+
 /*The styling for the social media and contact footer.*/
 .footer {
     margin: 0;
@@ -16,150 +99,8 @@
     width: 100%;
 }
 
-/*The styling for the experience section is handled in these 3 blocks. There is however the potential to merge this with
-the bio CSS block.
- */
-.experience {
-    margin-top: 2em;
-    margin-left: 5em;
-    margin-right: 5em;
-    text-align: justify;
-    font-size: 1.5em;
-    font-family: "Raleway", "Times New Roman", serif;
-}
-
-.experience h1 {
-    text-align: center;
-}
-.experience h2 {
-    text-align: center;
-}
-
-/*The custom styling for the welcome section is handled in these two blocks as well as the image styling for my picture.
- */
-.avatar {
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url("../Images/Headshot_1.png");
-    display: block;
-    margin: 0 auto;
-    width: 15em;
-    height: 15em;
-}
-
-/*Shrinks image for screens with a width less than 480px.*/
-@media not all and (min-width: 480px) {
-    .welcome img {
-        width: 7.5em;
-        height: 6em;
-    }
-}
-
-.welcome {
-    margin-top: 2em;
-    margin-left: 5em;
-    margin-right: 5em;
-    font-size: 1.5em;
-    font-family: "Raleway", "Times New Roman", serif;
-    text-align: justify;
-}
-
-/*The page header styling is controlled here. This is simply the big "Rory Williams Doyle" bit on the homepage*/
-.header {
-    color: #FFFFFF;
-    text-align: center;
-    font-family: "Raleway", "Times New Roman", serif;
-    font-size: 3em;
-    padding-top: 1em;
-    background-color: #ee6e73;
-    height: 1.7em;
-}
-
-/*Header resize for mobile view.*/
-@media not all and (min-width: 480px) {
-    .header {
-        font-size: 1.5em;
-    }
-}
-
-/*The following 3 blocks handle the styling for the PHP contact form.*/
-
-.contact {
-    margin: 5em;
-    font-size: 1.5em;
-    font-family: "Raleway", "Times New Roman", serif;
-    text-align: justify;
-}
-
-.contact h2 {
-    text-align: center;
-}
-
-.contact h1 {
-    text-align: center;
-}
-
-/*This block specifically handles the sizing of the message box in the PHP contact form.*/
-textarea{
-    width: 100%;
-    height: 200px;
-}
-
 /*This block handles the custom error style for error messages.*/
 .error {
-    margin-top: 5em;
+    margin-top: 3em;
     text-align: center;
-    font-size:2em;
-}
-
-/*Sets the margin of the whole page body to 0.*/
-body {
-    margin: 0;
-}
-
-/*These 3 blocks handle the styling of the "About Me" section on the page.*/
-.bio {
-    margin-top: 2em;
-    margin-left: 5em;
-    margin-right: 5em;
-    font-size: 1.5em;
-    font-family: "Raleway", "Times New Roman", serif;
-    font-weight: 500;
-    text-align: justify;
-}
-
-.bio h2 {
-    text-align: center;
-}
-
-.bio h1 {
-    text-align: center;
-}
-
-/*Resize Captcha for mobile.*/
-@media not all and (min-width: 426px) {
-    .g-recaptcha {
-        transform:scale(0.55);
-        transform-origin:0 0;
-    }
-}
-
-/*This section handles section text resizing for mobile.*/
-@media not all and (min-width: 480px) {
-    .experience {
-        font-size: 0.6em;
-    }
-
-    .welcome {
-        font-size: 0.6em;
-    }
-
-    .bio {
-        font-size: 0.6em;
-    }
-
-    .contact {
-        font-size: 0.6em;
-    }
 }
