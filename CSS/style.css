@@ -39,7 +39,7 @@ body {
     }
 }
 
-/*These 3 blocks handle the styling of the "Welcome", "About Me" & "Experience" sections on the page.*/
+/*These 3 blocks handle the styling for all general text sections.*/
 .general_text {
     margin: 2em 5em auto 5em;
     font-size: 1.5em;
